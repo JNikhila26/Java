@@ -1,7 +1,6 @@
 package Day3;
 
-public class Polymorphism {
-    //Method OverLoading - Same parameters but diff method types
+public class MethodOverLoading {
     void check1(int a){
         System.out.println(a++);
     }
@@ -15,10 +14,11 @@ public class Polymorphism {
         return a+b;
     }
 public static void main(String args[]){
-    Polymorphism p = new Polymorphism();
+    MethodOverLoading p = new MethodOverLoading();
     p.check1(2);
     System.out.println(p.check2(3,4));
     System.out.println(p.check3(5,8));
     System.out.println(p.check4(11,4));
     }
 }
+//Method OverLoading - diff parameters but same method types
