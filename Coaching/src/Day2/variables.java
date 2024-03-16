@@ -11,7 +11,7 @@ public class variables {
     boolean b;
 
     void methodOne(){
-        int carModel = 2014; //Local Variable, Need to declare value
+        int carModel = 2014; //Local Variable, must declare value
         System.out.println("carName : "+carName);
         System.out.println(carModel);
         System.out.println("Org carPrice : "+carPrice);
