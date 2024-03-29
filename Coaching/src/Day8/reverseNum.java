@@ -26,6 +26,9 @@ public class reverseNum {
         for (int i = s.length() - 1; i >= 0; i--) {
             rs = rs + s.charAt(i);
         }
-        System.out.print(rs);
+        System.out.println(rs);
+        StringBuilder sh = new StringBuilder();
+        sh.append("Nikhila");
+        System.out.println(sh.reverse());
     }
 }
