@@ -1,4 +1,4 @@
-package Day14.threads;
+package Day14.Threads;
 
 public class Thread1
 {
